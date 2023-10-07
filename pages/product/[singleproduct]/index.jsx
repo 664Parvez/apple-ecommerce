@@ -13,7 +13,7 @@ import Heading from '../../../components/Heading'
 
 
 export async function getServerSideProps () {
-    const response = await fetch("http://localhost:3000/api/products")
+    const response = await fetch("https://apple-ecommerce-six.vercel.app/api/products")
     const data = await response.json()
 
     return {
