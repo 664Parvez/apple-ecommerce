@@ -1,4 +1,3 @@
-import Container from "./container"
 import Link from "next/link"
 
 import footerCss from "../styles/footer.module.css"
@@ -6,7 +5,7 @@ import footerCss from "../styles/footer.module.css"
 const Footer = () => {
     return(
         <>
-            <Container>
+            <div className="container">
 
                 <hr />
 
@@ -146,7 +145,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-            </Container>
+            </div>
         </>
     )
 }
