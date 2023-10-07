@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import homeCss from '../styles/Home.module.css'
@@ -6,7 +5,6 @@ import homeCss from '../styles/Home.module.css'
 // Mendetory Components
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
-import Container from '../components/container'
 import Heading from '../components/Heading'
 
 import {BiLogoApple} from "react-icons/bi"

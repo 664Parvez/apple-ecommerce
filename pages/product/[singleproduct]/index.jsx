@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import Image from "next/image"
 import Link from 'next/link'
 import signleProductCss from "../../../styles/productsingle.module.css"
@@ -9,7 +9,6 @@ import {addCart} from "../../../redux/slices/Cartslice"
 
 import Navbar from "../../../components/Navbar"
 import Footer from "../../../components/Footer"
-import Container from '../../../components/container'
 import Heading from '../../../components/Heading'
 
 

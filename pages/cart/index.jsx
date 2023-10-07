@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useEffect} from 'react'
 import Image from "next/image"
 import cartCss from "../../styles/cart.module.css"
 import {BiUpArrow, BiDownArrow} from "react-icons/bi"
@@ -6,7 +6,6 @@ import {FaTimes} from "react-icons/fa"
 
 import Navbar from "../../components/Navbar"
 import Footer from "../../components/Footer"
-import Container from '../../components/container'
 import Heading from '../../components/Heading'
 
 import {useSelector, useDispatch} from "react-redux"

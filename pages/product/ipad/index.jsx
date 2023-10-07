@@ -5,7 +5,6 @@ import productCss from "../../../styles/product.module.css"
 
 import Navbar from "../../../components/Navbar"
 import Footer from "../../../components/Footer"
-import Container from '../../../components/container'
 import Heading from '../../../components/Heading'
 
 export async function getServerSideProps () {
